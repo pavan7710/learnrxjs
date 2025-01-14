@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TakeoperatorComponent } from './takeoperator/takeoperator.component';
 import { TakelastComponent } from './takelast/takelast.component';
+import { TakeuntiloperatorComponent } from './takeuntiloperator/takeuntiloperator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TakeoperatorComponent,
-    TakelastComponent
+    TakelastComponent,
+    TakeuntiloperatorComponent
   ],
   imports: [
     BrowserModule,
