@@ -13,7 +13,6 @@ export class TakeoperatorComponent implements OnInit {
      } , error => {
       console.log(error)
      }
-    
     )
   }
 }

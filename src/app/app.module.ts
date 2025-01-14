@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TakeoperatorComponent } from './takeoperator/takeoperator.component';
+import { TakelastComponent } from './takelast/takelast.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TakeoperatorComponent
+    TakeoperatorComponent,
+    TakelastComponent
   ],
   imports: [
     BrowserModule,
